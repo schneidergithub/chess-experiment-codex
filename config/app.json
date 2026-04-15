@@ -1,0 +1,25 @@
+{
+  "paths": {
+    "artifacts_root": "artifacts"
+  },
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "codec": "libx264",
+    "pixel_format": "yuv420p",
+    "ffmpeg_path": "ffmpeg"
+  },
+  "render": {
+    "board_size": 740,
+    "show_coordinates": true,
+    "background_color": "#0b1622",
+    "text_color": "#e8e6e3",
+    "font_size": 48,
+    "padding": 32,
+    "intro_seconds": 2,
+    "think_seconds": 2,
+    "move_hold_seconds": 1,
+    "outro_seconds": 2
+  }
+}
